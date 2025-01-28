@@ -1,3 +1,9 @@
 flask app/venv
+flask app/__pycache__
 
 simple_project/venv
+simple_project/__pycache__
+
+lab10/venv
+lab10/__pycache__
+
