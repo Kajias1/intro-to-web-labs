@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Lab</title>
+    <style>
+        .overflow-box {
+            width: 200px;
+            height: 100px;
+            border: 2px solid black;
+            padding: 10px;
+            margin: 10px;
+            background-color: lightcoral;
+        }
+
+        .hidden {
+            overflow: hidden;
+        }
+
+        .scroll {
+            overflow: scroll;
+        }
+
+        .auto {
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="overflow-box hidden">Overflow: hidden.</div>
+    <div class="overflow-box scroll">Overflow: scroll.</div>
+    <div class="overflow-box auto">Overflow: auto.</div>
+</body>
+</html>
