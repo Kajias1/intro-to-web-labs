@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: green;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+#main-title {
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+}
+
+.color-name {
+    color: red;
+}
+
+.hex-color {
+    background-color: #ff5733;
+    color: white;
+}
+
+.rgb-color {
+    color: rgb(0, 0, 255);
+}
+
+.rgba-color {
+    background-color: rgba(0, 255, 0, 0.5);
+    padding: 10px;
+}
+
