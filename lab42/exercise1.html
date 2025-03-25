@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Get Input Value</title>
+</head>
+<body>
+    <lavel for="username">Enter Username:</lavel>
+    <input type="text" id="username" placeholder="Type here">
+    <button onclick="displayValue()">Submit</button>
+    <p id="output"></p>
+
+    <script>
+        function displayValue() {
+            let username = document.getElementById("username").value;
+            if (username != ""){
+                document.getElementById("output").innerText = "Entered username: " + username;
+            } else {
+                document.getElementById("output").innerText = "Please, enter a valid username";
+            }
+        }
+    </script>
+</body>
+</html>
