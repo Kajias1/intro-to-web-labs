@@ -10,3 +10,7 @@ lab10/__pycache__
 lab17/venv
 
 lab18/venv
+
+task_manager/venv
+task_manager/__pycache__
+task_manager/app/__pycache__
